@@ -1,4 +1,21 @@
-html {
+@import './header.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  color: #100f24;
+  background: linear-gradient(0deg, #feffc4, #fbfbf2);
 }
