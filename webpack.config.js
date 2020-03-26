@@ -1,6 +1,5 @@
 const path = require('path')
 
-const glob = require('glob')
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const HtmlPlugin = require('html-webpack-plugin')
@@ -169,15 +168,9 @@ const productionConfig = merge([
       chunkFilename: `${paths.css}/[id].[contenthash:8].css`
     }
   }),
-  parts.purifyCSS({
-    paths: glob.sync(`${paths.app}/**/*.+(pug|js)`, { nodir: true }),
-    styleExtensions: ['.css', '.scss']
-  }),
   parts.minifyCSS({
     options: {
-      discardComments: {
-        removeAll: true
-      }
+      preset: ['default', { discardComments: { removeAll: true } }]
     }
   }),
   parts.loadImages({

@@ -1,4 +1,3 @@
-const PurifyCSSPlugin = require('purifycss-webpack')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -91,17 +90,12 @@ exports.autoprefix = () => ({
   }
 })
 
-exports.purifyCSS = (options) => ({
-  plugins: [
-    new PurifyCSSPlugin(options)
-  ]
-})
-
 exports.minifyCSS = ({ options }) => ({
   optimization: {
     minimizer: [
       new OptimizeCSSAssetsPlugin({
-        cssProcessorOptions: options,
+        cssProcessor: require('cssnano'),
+        cssProcessorPluginOptions: options,
         canPrint: true // false for analyzer
       })
     ]
