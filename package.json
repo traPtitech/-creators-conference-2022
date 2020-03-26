@@ -17,6 +17,7 @@
     "eslint": "^6.8.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^3.0.3",
+    "eslint-plugin-compat": "^3.5.1",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-promise": "^4.2.1",
     "fast-sass-loader": "^1.5.0",
