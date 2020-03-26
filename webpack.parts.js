@@ -77,7 +77,9 @@ const sharedCSSLoaders = [
   {
     loader: 'css-loader',
     options: {
-      localIdentName: '[hash:base64:5]'
+      modules: {
+        localIdentName: '[hash:base64:5]'
+      }
     }
   }
 ]
