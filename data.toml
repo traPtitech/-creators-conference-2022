@@ -1,1 +1,44 @@
-title = "c2"
+[[categories]]
+name = "プログラミング系"
+  [[categories.groups]]
+  name = "traP SysAd班"
+  desc = "traPで部内のインフラの制作・管理・運用をしています"
+  [[categories.groups]]
+  name = "ロ技研 Maquinista"
+  desc = "ロボコンチームです"
+  [[categories.groups]]
+  name = "ロ技研 アクア研"
+  desc = "水中ロボコン"
+  [[categories.groups]]
+  name = "ロ技研 Cheese"
+  desc = "マイクロマウス"
+  [[categories.groups]]
+  name = "Titech App Project"
+  desc = "東工大生向けのアプリやツールの開発をしています"
+  [[categories.groups]]
+  name = "iGEM TokyoTech"
+  desc = "短い紹介文"
+
+[[categories]]
+name = "グラフィック系"
+  [[categories.groups]]
+  name = "traP グラフィック班"
+  desc = "イラスト・ロゴなどの制作・デザインを行っています"
+  [[categories.groups]]
+  name = "デザイン研究会"
+  desc = "日常生活を彩る創作活動を行っています"
+  [[categories.groups]]
+  name = "美術部"
+  desc = "油彩や水彩、デジタル、切り絵や彫刻など自由に製作してます"
+  [[categories.groups]]
+  name = "アニメーション研究会"
+  desc = "唯一の公認アニメーション自主制作サークルです"
+
+[[categories]]
+name = "サウンド系"
+  [[categories.groups]]
+  name = "traP サウンド班"
+  desc = "主にPCを用いた音楽制作(DTM : Desktop Music)を行っています"
+  [[categories.groups]]
+  name = "tech-nation records"
+  desc = "DTMサークルです"

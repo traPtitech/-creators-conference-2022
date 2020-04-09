@@ -1,16 +1,20 @@
+include mixins/category.pug
+
 doctype html
 html(lang="ja")
   head
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
-    title #{title}
+    title C2特設ページ
   body
     include includes/header.pug
     main
       p
         | Creators' Conferenceは、4/14(火)に開催予定だった複数の創作系サークルが合同で行うサークル説明会です。
         | 新型コロナウイルスの感染拡大の影響で、大学側よりサークル活動の自粛が要請されたため、中止になりました。
-        | 本サイトでは、各サークルの活動団体別の発表で使用される予定だったスライドを掲載します。
-      p.release 4/14(火) 公開予定
+        | 本サイトでは、各サークルの活動団体別の発表で使用される予定だったスライドなどを掲載しています。
+      div#categories
+        each category in categories
+          +category(category)
     include includes/footer.pug
