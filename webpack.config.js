@@ -1,4 +1,6 @@
 const path = require('path')
+const fs = require('fs')
+const toml = require('toml')
 
 const webpack = require('webpack')
 const merge = require('webpack-merge')
@@ -83,7 +85,7 @@ const commonConfig = merge([
       noParse: /\.min\.js/
     }
   },
-  parts.loadPug(),
+  parts.loadPug({ data: toml.parse(fs.readFileSync('./data.toml')) }),
   parts.lintJS({ include: paths.app, options: lintJSOptions }),
   parts.loadFonts({
     include: paths.app,
