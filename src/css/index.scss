@@ -36,3 +36,26 @@ main {
 .release {
   font-weight: bold;
 }
+
+.hidden {
+  display: none;
+}
+
+.details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(30, 30, 30, 0.3);
+  padding: 20%;
+
+  .inner-wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+  }
+}

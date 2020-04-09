@@ -1,4 +1,9 @@
 mixin group(group)
-  div.group
+  .group
     h3.name= group.name
     p.desc= group.desc
+    button.toggle-details もっと詳しく
+    .details.hidden
+      .inner-wrapper
+        button.toggle-details 閉じる
+        | 詳細
