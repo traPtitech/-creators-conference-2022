@@ -183,7 +183,7 @@ const productionConfig = merge([
   parts.loadImages({
     include: paths.app,
     options: {
-      limit: 15000,
+      limit: 1000,
       name: `${paths.images}/[name].[hash:8].[ext]`
     }
   }),
