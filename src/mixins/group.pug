@@ -9,8 +9,8 @@ mixin group(group)
           each line in group.details.desc
             p !{line}
           each img in group.details.img
-            img(src=img)
+            img(src=img loading="lazy")
           .slides
             each img in group.details.slide
-              img(src=img)
+              img(src=img loading="lazy")
           button.toggle-details 閉じる
