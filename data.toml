@@ -6,36 +6,60 @@ name = "プログラミング系"
     [categories.groups.details]
       desc = []
       img = []
+      slide = []
   [[categories.groups]]
     name = "ロ技研 Maquinista"
     desc = "ロボコンチームです"
     [categories.groups.details]
       desc = []
       img = []
+      slide = []
   [[categories.groups]]
     name = "ロ技研 アクア研"
     desc = "水中ロボコン"
     [categories.groups.details]
       desc = []
       img = []
+      slide = []
   [[categories.groups]]
     name = "ロ技研 Cheese"
     desc = "マイクロマウス"
     [categories.groups.details]
       desc = []
       img = []
+      slide = []
   [[categories.groups]]
     name = "Titech App Project"
     desc = "東工大生向けのアプリやツールの開発をしています"
     [categories.groups.details]
       desc = []
       img = []
+      slide = []
   [[categories.groups]]
     name = "iGEM TokyoTech"
     desc = "短い紹介文"
     [categories.groups.details]
       desc = []
       img = []
+      slide = [
+        "./images/igem/1.png",
+        "./images/igem/2.png",
+        "./images/igem/3.png",
+        "./images/igem/4.png",
+        "./images/igem/5.png",
+        "./images/igem/6.png",
+        "./images/igem/7.png",
+        "./images/igem/8.png",
+        "./images/igem/9.png",
+        "./images/igem/10.png",
+        "./images/igem/11.png",
+        "./images/igem/12.png",
+        "./images/igem/13.png",
+        "./images/igem/14.png",
+        "./images/igem/15.png",
+        "./images/igem/16.png",
+        "./images/igem/17.png"
+      ]
 
 [[categories]]
 name = "グラフィック系"
@@ -45,6 +69,7 @@ name = "グラフィック系"
     [categories.groups.details]
       desc = []
       img = []
+      slide = []
   [[categories.groups]]
     name = "デザイン研究会"
     desc = "日常生活を彩る創作活動を行っています"
@@ -56,6 +81,21 @@ name = "グラフィック系"
         "Twitter→<a href=\"https://twitter.com/titechdesignlab\">@titechdesignlab</a>"
       ]
       img = []
+      slide = [
+        "./images/design/1.png",
+        "./images/design/2.png",
+        "./images/design/3.png",
+        "./images/design/4.png",
+        "./images/design/5.png",
+        "./images/design/6.png",
+        "./images/design/7.png",
+        "./images/design/8.png",
+        "./images/design/9.png",
+        "./images/design/10.png",
+        "./images/design/11.png",
+        "./images/design/12.png",
+        "./images/design/13.png"
+      ]
   [[categories.groups]]
     name = "美術部"
     desc = "油彩や水彩、デジタル、切り絵や彫刻など自由に製作してます"
@@ -69,6 +109,7 @@ name = "グラフィック系"
       img = [
         "./images/2020tokyotechartclub.png"
       ]
+      slide = []
   [[categories.groups]]
     name = "アニメーション研究会"
     desc = "唯一の公認アニメーション自主制作サークルです"
@@ -82,6 +123,7 @@ name = "グラフィック系"
         "./images/IMG_5618.jpg",
         "./images/IMG_5619.jpg"
       ]
+      slide = []
 
 [[categories]]
 name = "サウンド系"
@@ -91,6 +133,7 @@ name = "サウンド系"
     [categories.groups.details]
       desc = []
       img = []
+      slide = []
   [[categories.groups]]
     name = "Tech-nation Records"
     desc = "東工大で唯一の作曲(DTM)サークルです"
@@ -100,3 +143,4 @@ name = "サウンド系"
         "【2020年度新歓コンピ公開中】<br>今年の新入生への歓迎の意を込めて、Tech-nation Recordsから新歓コンピ「TSUBAME2020」をリリースしました！下記サイトから全曲フリーでダウンロードできます、是非お聞きください！<br><a href=\"https://tsubame-2020.tumblr.com/\">https://tsubame-2020.tumblr.com/</a>"
       ]
       img = []
+      slide = []
