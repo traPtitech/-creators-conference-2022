@@ -47,7 +47,11 @@
   height: 100%;
   width: 100%;
   background: rgba(30, 30, 30, 0.3);
-  padding: 20%;
+  padding: 15%;
+  overflow: {
+    x: hidden;
+    y: auto;
+  };
 
   @media screen and (max-width: 480px) {
     padding: 10%;
@@ -55,8 +59,9 @@
 
   .inner-wrapper {
     display: flex;
-    height: 100%;
+    flex-direction: column;
     width: 100%;
+    padding: 3rem;
     justify-content: center;
     align-items: center;
     background: #eee;

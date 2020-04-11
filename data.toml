@@ -1,44 +1,82 @@
 [[categories]]
 name = "プログラミング系"
   [[categories.groups]]
-  name = "traP SysAd班"
-  desc = "traPで部内のインフラの制作・管理・運用をしています"
+    name = "traP SysAd班"
+    desc = "traPで部内のインフラの制作・管理・運用をしています"
+    [categories.groups.details]
+      desc = []
   [[categories.groups]]
-  name = "ロ技研 Maquinista"
-  desc = "ロボコンチームです"
+    name = "ロ技研 Maquinista"
+    desc = "ロボコンチームです"
+    [categories.groups.details]
+      desc = []
   [[categories.groups]]
-  name = "ロ技研 アクア研"
-  desc = "水中ロボコン"
+    name = "ロ技研 アクア研"
+    desc = "水中ロボコン"
+    [categories.groups.details]
+      desc = []
   [[categories.groups]]
-  name = "ロ技研 Cheese"
-  desc = "マイクロマウス"
+    name = "ロ技研 Cheese"
+    desc = "マイクロマウス"
+    [categories.groups.details]
+      desc = []
   [[categories.groups]]
-  name = "Titech App Project"
-  desc = "東工大生向けのアプリやツールの開発をしています"
+    name = "Titech App Project"
+    desc = "東工大生向けのアプリやツールの開発をしています"
+    [categories.groups.details]
+      desc = []
   [[categories.groups]]
-  name = "iGEM TokyoTech"
-  desc = "短い紹介文"
+    name = "iGEM TokyoTech"
+    desc = "短い紹介文"
+    [categories.groups.details]
+      desc = []
 
 [[categories]]
 name = "グラフィック系"
   [[categories.groups]]
-  name = "traP グラフィック班"
-  desc = "イラスト・ロゴなどの制作・デザインを行っています"
+    name = "traP グラフィック班"
+    desc = "イラスト・ロゴなどの制作・デザインを行っています"
+    [categories.groups.details]
+      desc = []
   [[categories.groups]]
-  name = "デザイン研究会"
-  desc = "日常生活を彩る創作活動を行っています"
+    name = "デザイン研究会"
+    desc = "日常生活を彩る創作活動を行っています"
+    [categories.groups.details]
+      desc = [
+        "私たちデザイン研究会は、木工、手芸、デジタルおよびアナログイラストや切り絵に折り紙などのあらゆるジャンルの創作活動を行っているサークルで、ものつくり教育研究支援センターを中心とする、「ものつくりサークル」の１つでもあります。個人または共同での作品制作と、工大祭やデザフェスなどの外部のイベントでの作品の展示・販売を中心に活動しています。また、毎週水曜日の午後には部会を行い、部員同士が積極的に意見を出し合いながら、イベントに向けた計画や、部会の時間を使った小企画を実施するなど、和気藹々と過ごしています。",
+        "詳しい活動の様子については、スライドの写真と説明等をごらんください。また下記のTwitterのDMやリプなどでも、質問を受け付けていますので、是非気軽に質問してください！！",
+        "デザイン研究会の最大の特徴にして長所は、「自由度の高さ」です。基本的にサークル内で活動ジャンルを限定していないため、「ものを作る」ことであれば、最初にあげたジャンル以外でも活動することができます。部室にあるミシンやエアスプレー、カッティングマシンなどは自由に使用できる上に、ものつくりセンターの機材を用いることで、初めてのことでも挑みやすい環境になっています。もちろん、作品だけでなく、日々の過ごし方も自由です。部員一同お待ちしています！",
+        "Twitter→<a href=\"https://twitter.com/titechdesignlab\">@titechdesignlab</a>"
+      ]
   [[categories.groups]]
-  name = "美術部"
-  desc = "油彩や水彩、デジタル、切り絵や彫刻など自由に製作してます"
+    name = "美術部"
+    desc = "油彩や水彩、デジタル、切り絵や彫刻など自由に製作してます"
+    [categories.groups.details]
+      desc = [
+        "東工大美術部です。",
+        "油彩や水彩、デジタル、切り絵や彫刻など、やる気があればなんでもできます。",
+        "中高で美術部だった人も大学から何か始めたい人も大歓迎です！",
+        "美術部の様子を詳しく知りたい人は<a href=\"https://tokyotechartclub.org/for-new-menbers/\">東工大美術部ホームページの入部案内</a>をご覧ください。"
+      ]
   [[categories.groups]]
-  name = "アニメーション研究会"
-  desc = "唯一の公認アニメーション自主制作サークルです"
+    name = "アニメーション研究会"
+    desc = "唯一の公認アニメーション自主制作サークルです"
+    [categories.groups.details]
+      desc = [
+        "みなさんこんにちは。私たちはアニメーション研究会、東京工業大学唯一の公認アニメーション自主制作サークルです。",
+        "アニメーションの制作はもちろんのこと、他大学合同での自主制作アニメーションの上映会や、大岡山のラーメン店とのタイアップ制作など、幅広く活動しています。アニメーション制作以外にも、年2回の即売会への出展に夏合宿、新年会や忘年会などもしており、あなたの充実した学生生活を約束します。部室にはアニメーション制作の機材だけでなく、沢山の漫画やアニメBlu-ray、ゲーム機もあり、仲間たちと切磋琢磨したり遊んだりすることには事欠かないでしょう。",
+        "アニメーション制作には多くの仕事が関わっています。制作進行・原画・声優・CG・脚本・監督・撮影……少し上げただけでもこれだけの数の仕事がありますが、これらは全体のほんの一部です。もちろん、たった1人でこれらを全てこなせるわけではありません。多彩な能力、多様な特性を持った人たちが互いに手と手を取り合って、一つの作品を完成へと導くのです。だからこそ、ここにはあなたにしかできない仕事がきっとあるでしょう。創作することをいとわない熱意ある新入生の皆さん、どうぞ、アニメーション研究会へ。共に完成を見届けましょう。"
+      ]
 
 [[categories]]
 name = "サウンド系"
   [[categories.groups]]
-  name = "traP サウンド班"
-  desc = "主にPCを用いた音楽制作(DTM : Desktop Music)を行っています"
+    name = "traP サウンド班"
+    desc = "主にPCを用いた音楽制作(DTM : Desktop Music)を行っています"
+    [categories.groups.details]
+      desc = []
   [[categories.groups]]
-  name = "tech-nation records"
-  desc = "DTMサークルです"
+    name = "tech-nation records"
+    desc = "DTMサークルです"
+    [categories.groups.details]
+      desc = []

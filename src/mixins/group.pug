@@ -7,4 +7,5 @@ mixin group(group)
       .details.hidden
         .inner-wrapper
           button.toggle-details 閉じる
-          | 詳細
+          each line in group.details.desc
+            p !{line}
