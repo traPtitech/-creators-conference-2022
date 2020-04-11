@@ -11,6 +11,9 @@ mixin group(group)
           each img in group.details.img
             img(src=img loading="lazy")
           .slides
-            each img in group.details.slide
-              img(src=img loading="lazy")
+            each img, i in group.details.slide
+              if i === 0
+                img(src=img loading="lazy" is-selected)
+              else
+                img(src=img loading="lazy")
           button.toggle-details 閉じる

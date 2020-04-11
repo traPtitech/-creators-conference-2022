@@ -77,4 +77,10 @@
   .toggle-details {
     align-self: center;
   }
+
+  .slides {
+    img:not([is-selected]) {
+      display: none;
+    }
+  }
 }
