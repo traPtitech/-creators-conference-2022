@@ -42,23 +42,23 @@ name = "プログラミング系"
       desc = []
       img = []
       slide = [
-        "./images/igem/1.png",
-        "./images/igem/2.png",
-        "./images/igem/3.png",
-        "./images/igem/4.png",
-        "./images/igem/5.png",
-        "./images/igem/6.png",
-        "./images/igem/7.png",
-        "./images/igem/8.png",
-        "./images/igem/9.png",
-        "./images/igem/10.png",
-        "./images/igem/11.png",
-        "./images/igem/12.png",
-        "./images/igem/13.png",
-        "./images/igem/14.png",
-        "./images/igem/15.png",
-        "./images/igem/16.png",
-        "./images/igem/17.png"
+        "./images/igem/1[1].png",
+        "./images/igem/2[1].png",
+        "./images/igem/3[1].png",
+        "./images/igem/4[1].png",
+        "./images/igem/5[1].png",
+        "./images/igem/6[1].png",
+        "./images/igem/7[1].png",
+        "./images/igem/8[1].png",
+        "./images/igem/9[1].png",
+        "./images/igem/10[1].png",
+        "./images/igem/11[1].png",
+        "./images/igem/12[1].png",
+        "./images/igem/13[1].png",
+        "./images/igem/14[1].png",
+        "./images/igem/15[1].png",
+        "./images/igem/16[1].png",
+        "./images/igem/17[1].png"
       ]
 
 [[categories]]
@@ -82,19 +82,19 @@ name = "グラフィック系"
       ]
       img = []
       slide = [
-        "./images/design/1.png",
-        "./images/design/2.png",
-        "./images/design/3.png",
-        "./images/design/4.png",
-        "./images/design/5.png",
-        "./images/design/6.png",
-        "./images/design/7.png",
-        "./images/design/8.png",
-        "./images/design/9.png",
-        "./images/design/10.png",
-        "./images/design/11.png",
-        "./images/design/12.png",
-        "./images/design/13.png"
+        "./images/design/1[1].png",
+        "./images/design/2[1].png",
+        "./images/design/3[1].png",
+        "./images/design/4[1].png",
+        "./images/design/5[1].png",
+        "./images/design/6[1].png",
+        "./images/design/7[1].png",
+        "./images/design/8[1].png",
+        "./images/design/9[1].png",
+        "./images/design/10[1].png",
+        "./images/design/11[1].png",
+        "./images/design/12[1].png",
+        "./images/design/13[1].png"
       ]
   [[categories.groups]]
     name = "美術部"
@@ -107,7 +107,7 @@ name = "グラフィック系"
         "美術部の様子を詳しく知りたい人は<a href=\"https://tokyotechartclub.org/for-new-menbers/\">東工大美術部ホームページの入部案内</a>をご覧ください。"
       ]
       img = [
-        "./images/2020tokyotechartclub.png"
+        "./images/2020tokyotechartclub[1].png"
       ]
       slide = []
   [[categories.groups]]
@@ -120,8 +120,8 @@ name = "グラフィック系"
         "アニメーション制作には多くの仕事が関わっています。制作進行・原画・声優・CG・脚本・監督・撮影……少し上げただけでもこれだけの数の仕事がありますが、これらは全体のほんの一部です。もちろん、たった1人でこれらを全てこなせるわけではありません。多彩な能力、多様な特性を持った人たちが互いに手と手を取り合って、一つの作品を完成へと導くのです。だからこそ、ここにはあなたにしかできない仕事がきっとあるでしょう。創作することをいとわない熱意ある新入生の皆さん、どうぞ、アニメーション研究会へ。共に完成を見届けましょう。"
       ]
       img = [
-        "./images/IMG_5618.jpg",
-        "./images/IMG_5619.jpg"
+        "./images/IMG_5618[1].jpg",
+        "./images/IMG_5619[1].jpg"
       ]
       slide = []
 
