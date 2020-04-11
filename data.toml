@@ -92,8 +92,11 @@ name = "サウンド系"
       desc = []
       img = []
   [[categories.groups]]
-    name = "tech-nation records"
-    desc = "DTMサークルです"
+    name = "Tech-nation Records"
+    desc = "東工大で唯一の作曲(DTM)サークルです"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "Tech-nation Recordsは東工大で唯一の作曲(DTM)サークルです。メンバーそれぞれがPCで自由に曲を作り、CDを焼いて頒布しています。音楽経験の有無に関わらず新規メンバーを募集しています、興味のある方は是非資料をご覧ください！",
+        "【2020年度新歓コンピ公開中】<br>今年の新入生への歓迎の意を込めて、Tech-nation Recordsから新歓コンピ「TSUBAME2020」をリリースしました！下記サイトから全曲フリーでダウンロードできます、是非お聞きください！<br><a href=\"https://tsubame-2020.tumblr.com/\">https://tsubame-2020.tumblr.com/</a>"
+      ]
       img = []
