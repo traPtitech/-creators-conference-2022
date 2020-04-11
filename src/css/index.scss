@@ -24,14 +24,14 @@ body {
 main {
   width: 80vw;
   flex: 1 0;
-
-  @media screen and (max-width: 480px) {
-    width: 90vw;
-  }
-
   max-width: 1080px;
   padding: 0 4rem;
   margin: 0 auto;
+
+  @media screen and (max-width: 480px) {
+    width: 90vw;
+    padding: 0 2rem;
+  }
 }
 
 .release {
