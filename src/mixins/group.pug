@@ -6,8 +6,8 @@ mixin group(group)
       button.toggle-details もっと詳しく
       .details.hidden
         .inner-wrapper
-          button.toggle-details 閉じる
           each line in group.details.desc
             p !{line}
           each img in group.details.img
             img(src=img)
+          button.toggle-details 閉じる
