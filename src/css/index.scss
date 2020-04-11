@@ -1,5 +1,6 @@
 @import "./header.scss";
 @import "./footer.scss";
+@import "./group.scss";
 
 * {
   box-sizing: border-box;
@@ -16,21 +17,21 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  color: #2e5a6d;
+  background: linear-gradient(0deg, #fafc94, #f9f9dc);
+}
+
+main {
   width: 80vw;
+  flex: 1 0;
 
   @media screen and (max-width: 480px) {
     width: 90vw;
   }
 
   max-width: 1080px;
-  padding: 4rem;
+  padding: 0 4rem;
   margin: 0 auto;
-  color: #100f24;
-  background: linear-gradient(0deg, #feffc4, #fbfbf2);
-}
-
-main {
-  flex: 1 0;
 }
 
 .release {
@@ -39,23 +40,4 @@ main {
 
 .hidden {
   display: none;
-}
-
-.details {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(30, 30, 30, 0.3);
-  padding: 20%;
-
-  .inner-wrapper {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background: #eee;
-  }
 }
