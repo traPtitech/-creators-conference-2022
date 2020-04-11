@@ -37,7 +37,7 @@ name = "プログラミング系"
       slide = []
   [[categories.groups]]
     name = "iGEM TokyoTech"
-    desc = "短い紹介文"
+    desc = "合成生物学の応用法を探求する国際大会に出場してます"
     [categories.groups.details]
       desc = []
       img = []
