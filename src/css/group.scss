@@ -44,10 +44,11 @@
   position: fixed;
   top: 0;
   left: 0;
+  display: flex;
   height: 100%;
   width: 100%;
   background: rgba(30, 30, 30, 0.3);
-  padding: 15%;
+  padding: 5% 15%;
   overflow: {
     x: hidden;
     y: auto;
@@ -62,7 +63,7 @@
     flex-direction: column;
     width: 100%;
     max-width: 1080px;
-    margin: 0 auto;
+    margin: auto;
     padding: 3rem;
     justify-content: center;
     align-items: flex-start;
