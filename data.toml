@@ -194,16 +194,13 @@ name = "サウンド系"
       slide = [
         "./images/sound/1[1].png",
         "./images/sound/2[1].png",
-        "./images/sound/3[1].png",
         "./images/sound/4[1].png",
         "./images/sound/5[1].png",
         "./images/sound/6[1].png",
         "./images/sound/7[1].png",
-        "./images/sound/8[1].png",
         "./images/sound/9[1].png",
         "./images/sound/10[1].png",
         "./images/sound/11[1].png",
-        "./images/sound/12[1].png",
         "./images/sound/13[1].png"
       ]
   [[categories.groups]]
