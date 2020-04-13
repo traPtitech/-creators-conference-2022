@@ -6,6 +6,7 @@ mixin group(group)
       button.toggle-details もっと詳しく
       .details.hidden
         .inner-wrapper
+          h3= group.name
           each line in group.details.desc
             p !{line}
           each img in group.details.img
