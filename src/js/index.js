@@ -1,3 +1,4 @@
+import 'loading-attribute-polyfill'
 import { shuffleGroups } from './shuffle'
 import { setupDetails } from './details'
 import { setupSlides } from './slides'
