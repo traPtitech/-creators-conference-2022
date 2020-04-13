@@ -113,7 +113,7 @@
         padding-top: 9 / 16 * 100%;
       }
 
-      &::after {
+      &[loaded="false"]::after {
         content: "";
         display: block;
         position: absolute;
@@ -126,6 +126,7 @@
         margin: auto;
         animation: loading 1.2s infinite ease-in-out;
         background: #ccc;
+        z-index: 3;
       }
 
       img {
