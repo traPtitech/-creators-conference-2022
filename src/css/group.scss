@@ -52,7 +52,7 @@
   overflow: {
     x: hidden;
     y: auto;
-  };
+  }
 
   @media screen and (max-width: 480px) {
     padding: 10%;
@@ -113,7 +113,8 @@
         padding-top: 9 / 16 * 100%;
       }
 
-      &[loaded="false"]::after {
+      &:not([data-loaded])::after,
+      &[data-loaded="false"]::after {
         content: "";
         display: block;
         position: absolute;
