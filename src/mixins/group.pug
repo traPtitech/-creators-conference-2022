@@ -9,7 +9,8 @@ mixin group(group)
           each line in group.details.desc
             p !{line}
           each img in group.details.img
-            img(src=img loading="lazy")
+            a.img(href=img)
+              img(src=img loading="lazy")
           if group.details.slide.length > 0
             .slides
               each img, i in group.details.slide
