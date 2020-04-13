@@ -6,7 +6,29 @@ name = "プログラミング系"
     [categories.groups.details]
       desc = []
       img = []
-      slide = []
+      slide = [
+        "./images/sysad/1[1].png",
+        "./images/sysad/2[1].png",
+        "./images/sysad/3[1].png",
+        "./images/sysad/4[1].png",
+        "./images/sysad/5[1].png",
+        "./images/sysad/6[1].png",
+        "./images/sysad/7[1].png",
+        "./images/sysad/8[1].png",
+        "./images/sysad/9[1].png",
+        "./images/sysad/10[1].png",
+        "./images/sysad/11[1].png",
+        "./images/sysad/12[1].png",
+        "./images/sysad/13[1].png",
+        "./images/sysad/14[1].png",
+        "./images/sysad/15[1].png",
+        "./images/sysad/16[1].png",
+        "./images/sysad/17[1].png",
+        "./images/sysad/18[1].png",
+        "./images/sysad/19[1].png",
+        "./images/sysad/20[1].png",
+        "./images/sysad/21[1].png"
+      ]
   [[categories.groups]]
     name = "ロ技研 Maquinista"
     desc = "ロボコンチームです"
@@ -69,7 +91,27 @@ name = "グラフィック系"
     [categories.groups.details]
       desc = []
       img = []
-      slide = []
+      slide = [
+        "./images/graphics/1[1].png",
+        "./images/graphics/2[1].png",
+        "./images/graphics/3[1].png",
+        "./images/graphics/4[1].png",
+        "./images/graphics/5[1].png",
+        "./images/graphics/6[1].png",
+        "./images/graphics/7[1].png",
+        "./images/graphics/8[1].png",
+        "./images/graphics/9[1].png",
+        "./images/graphics/10[1].png",
+        "./images/graphics/11[1].png",
+        "./images/graphics/12[1].png",
+        "./images/graphics/13[1].png",
+        "./images/graphics/14[1].png",
+        "./images/graphics/15[1].png",
+        "./images/graphics/16[1].png",
+        "./images/graphics/17[1].png",
+        "./images/graphics/18[1].png",
+        "./images/graphics/19[1].png"
+      ]
   [[categories.groups]]
     name = "デザイン研究会"
     desc = "日常生活を彩る創作活動を行っています"
@@ -133,7 +175,21 @@ name = "サウンド系"
     [categories.groups.details]
       desc = []
       img = []
-      slide = []
+      slide = [
+        "./images/sound/1[1].png",
+        "./images/sound/2[1].png",
+        "./images/sound/3[1].png",
+        "./images/sound/4[1].png",
+        "./images/sound/5[1].png",
+        "./images/sound/6[1].png",
+        "./images/sound/7[1].png",
+        "./images/sound/8[1].png",
+        "./images/sound/9[1].png",
+        "./images/sound/10[1].png",
+        "./images/sound/11[1].png",
+        "./images/sound/12[1].png",
+        "./images/sound/13[1].png"
+      ]
   [[categories.groups]]
     name = "Tech-nation Records"
     desc = "東工大で唯一の作曲(DTM)サークルです"
@@ -143,4 +199,21 @@ name = "サウンド系"
         "【2020年度新歓コンピ公開中】<br>今年の新入生への歓迎の意を込めて、Tech-nation Recordsから新歓コンピ「TSUBAME2020」をリリースしました！下記サイトから全曲フリーでダウンロードできます、是非お聞きください！<br><a href=\"https://tsubame-2020.tumblr.com/\">https://tsubame-2020.tumblr.com/</a>"
       ]
       img = []
-      slide = []
+      slide = [
+        "./images/technation/1[1].png",
+        "./images/technation/2[1].png",
+        "./images/technation/3[1].png",
+        "./images/technation/4[1].png",
+        "./images/technation/5[1].png",
+        "./images/technation/6[1].png",
+        "./images/technation/7[1].png",
+        "./images/technation/8[1].png",
+        "./images/technation/9[1].png",
+        "./images/technation/10[1].png",
+        "./images/technation/11[1].png",
+        "./images/technation/12[1].png",
+        "./images/technation/13[1].png",
+        "./images/technation/14[1].png",
+        "./images/technation/15[1].png",
+        "./images/technation/16[1].png"
+      ]
