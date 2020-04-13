@@ -7,16 +7,16 @@ mixin group(group)
       .details.hidden
         .inner-wrapper
           h3= group.name
-          each line in group.details.desc
-            p !{line}
-          each img in group.details.img
-            a.img(href=img.src)
-              noscript.loading-lazy
-                img(src=img.src alt=img.name loading="lazy")
           if group.details.slide.length > 0
             .slides
               each img, i in group.details.slide
                 .slide(is-selected=(i === 0))
                   noscript.loading-lazy
                     img(src=img loading="lazy")
+          each line in group.details.desc
+            p !{line}
+          each img in group.details.img
+            a.img(href=img.src)
+              noscript.loading-lazy
+                img(src=img.src alt=img.name loading="lazy")
           button.toggle-details 閉じる
