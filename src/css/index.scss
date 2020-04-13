@@ -9,10 +9,18 @@
 button {
   -webkit-appearance: none;
   cursor: pointer;
-  background: rgb(239, 239, 239);
   border-width: 1px;
-  border-color: rgb(118, 118, 118);
-  border-radius: 2px;
+  border-color: #2e5a6d;
+  border-radius: 4px;
+  color: #fefefe;
+  background: #2e5a6d;
+  padding: 0.2em 0.6em;
+  font-weight: bold;
+
+  &:hover {
+    color: #2e5a6d;
+    background: #fefefe;
+  }
 }
 
 html,
