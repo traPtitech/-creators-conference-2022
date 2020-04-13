@@ -10,8 +10,9 @@ mixin group(group)
             p !{line}
           each img in group.details.img
             img(src=img loading="lazy")
-          .slides
-            each img, i in group.details.slide
-              .slide(is-selected=(i === 0))
-                img(src=img loading="lazy")
+          if group.details.slide.length > 0
+            .slides
+              each img, i in group.details.slide
+                .slide(is-selected=(i === 0))
+                  img(src=img loading="lazy")
           button.toggle-details 閉じる
