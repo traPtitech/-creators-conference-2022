@@ -1,5 +1,5 @@
 export const checkImgLoading = $slide => {
-  if ($slide.dataset.loaded) return
+  if (!$slide || $slide.dataset.loaded) return
 
   const $img = $slide.querySelector('img')
   if ($img.complete) {
