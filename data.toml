@@ -1,7 +1,9 @@
 [[categories]]
 name = "プログラミング系"
+key = "program"
   [[categories.groups]]
     name = "traP SysAd班"
+    key = "sysad"
     desc = "traPで部内のインフラの制作・管理・運用をしています"
     [categories.groups.details]
       desc = [
@@ -33,6 +35,7 @@ name = "プログラミング系"
       ]
   [[categories.groups]]
     name = "ロ技研 Maquinista"
+    key = "maquinista"
     desc = "ロボコンチームです"
     [categories.groups.details]
       desc = [
@@ -42,6 +45,7 @@ name = "プログラミング系"
       slide = []
   [[categories.groups]]
     name = "ロ技研 アクア研"
+    key = "aqua"
     desc = "水中ロボットなど水に関するものつくりをしています"
     [categories.groups.details]
       desc = [
@@ -51,6 +55,7 @@ name = "プログラミング系"
       slide = []
   [[categories.groups]]
     name = "ロ技研 Cheese"
+    key = "cheese"
     desc = "マイクロマウスというロボット競技に取り組んでいます"
     [categories.groups.details]
       desc = [
@@ -60,6 +65,7 @@ name = "プログラミング系"
       slide = []
   [[categories.groups]]
     name = "Titech App Project"
+    key = "titechapp"
     desc = "東工大生向けのアプリやツールの開発をしています"
     [categories.groups.details]
       desc = [
@@ -69,6 +75,7 @@ name = "プログラミング系"
       slide = []
   [[categories.groups]]
     name = "iGEM TokyoTech"
+    key = "igem"
     desc = "合成生物学の応用法を探求する国際大会に出場してます"
     [categories.groups.details]
       desc = [
@@ -97,8 +104,10 @@ name = "プログラミング系"
 
 [[categories]]
 name = "グラフィック系"
+key = "graphics"
   [[categories.groups]]
     name = "traP グラフィック班"
+    key = "graphics"
     desc = "イラスト・ロゴなどの制作・デザインを行っています"
     [categories.groups.details]
       desc = [
@@ -128,6 +137,7 @@ name = "グラフィック系"
       ]
   [[categories.groups]]
     name = "デザイン研究会"
+    key = "design"
     desc = "日常生活を彩る創作活動を行っています"
     [categories.groups.details]
       desc = [
@@ -154,6 +164,7 @@ name = "グラフィック系"
       ]
   [[categories.groups]]
     name = "美術部"
+    key = "art"
     desc = "油彩や水彩、デジタル、切り絵や彫刻など自由に製作してます"
     [categories.groups.details]
       desc = [
@@ -168,6 +179,7 @@ name = "グラフィック系"
       slide = []
   [[categories.groups]]
     name = "アニメーション研究会"
+    key = "anime"
     desc = "唯一の公認アニメーション自主制作サークルです"
     [categories.groups.details]
       desc = [
@@ -183,8 +195,10 @@ name = "グラフィック系"
 
 [[categories]]
 name = "サウンド系"
+key = "sound"
   [[categories.groups]]
     name = "traP サウンド班"
+    key = "sound"
     desc = "主にPCを用いた音楽制作(DTM : Desktop Music)を行っています"
     [categories.groups.details]
       desc = [
@@ -205,6 +219,7 @@ name = "サウンド系"
       ]
   [[categories.groups]]
     name = "Tech-nation Records"
+    key = "technation"
     desc = "東工大で唯一の作曲(DTM)サークルです"
     [categories.groups.details]
       desc = [

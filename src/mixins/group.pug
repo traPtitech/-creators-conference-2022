@@ -1,5 +1,5 @@
 mixin group(group)
-  .group-wrapper
+  .group-wrapper(data-key=group.key)
     .group
       h3.name= group.name
       p.desc= group.desc
