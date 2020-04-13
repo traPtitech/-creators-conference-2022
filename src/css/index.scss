@@ -6,6 +6,15 @@
   box-sizing: border-box;
 }
 
+button {
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: rgb(239, 239, 239);
+  border-width: 1px;
+  border-color: rgb(118, 118, 118);
+  border-radius: 2px;
+}
+
 html,
 body {
   min-height: 100vh;
