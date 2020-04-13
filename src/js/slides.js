@@ -14,6 +14,16 @@ export const checkImgLoading = $slide => {
   }, { once: true })
 }
 
+export const preloadImg = $slide => {
+  if (!$slide || $slide.dataset.loaded) return
+
+  const $img = $slide.querySelector('img')
+  if ($img.complete) return
+
+  // eslint-disable-next-line compat/compat
+  fetch($img.src)
+}
+
 const getLeftOrRight = ($slide, xTarget) => {
   const { left, right } = $slide.getBoundingClientRect()
   const xMiddle = (left + right) / 2
@@ -38,6 +48,9 @@ export const setupSlides = () => {
           $selected.nextElementSibling.setAttribute('is-selected', 'is-selected')
           checkImgLoading($selected.nextElementSibling)
           $slides.dataset.now++
+          if ($selected.nextElementSibling.nextElementSibling) {
+            preloadImg($selected.nextElementSibling.nextElementSibling)
+          }
         } else {
           $slides.firstElementChild.setAttribute('is-selected', 'is-selected')
           $slides.dataset.now = 1
@@ -47,10 +60,16 @@ export const setupSlides = () => {
           $selected.previousElementSibling.setAttribute('is-selected', 'is-selected')
           checkImgLoading($selected.previousElementSibling)
           $slides.dataset.now--
+          if ($selected.previousElementSibling.previousElementSibling) {
+            preloadImg($selected.previousElementSibling.previousElementSibling)
+          }
         } else {
           $slides.lastElementChild.setAttribute('is-selected', 'is-selected')
           checkImgLoading($slides.lastElementChild)
           $slides.dataset.now = $slides.childElementCount
+          if ($selected.lastElementChild.previousElementSibling) {
+            preloadImg($selected.lastElementChild.previousElementSibling)
+          }
         }
       }
     })

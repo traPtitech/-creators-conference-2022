@@ -1,4 +1,4 @@
-import { checkImgLoading } from './slides'
+import { checkImgLoading, preloadImg } from './slides'
 
 export const setupDetails = () => {
   const $$button = document.querySelectorAll(".toggle-details")
@@ -9,7 +9,11 @@ export const setupDetails = () => {
     $button.addEventListener("click", () => {
       $details.classList.toggle("hidden")
 
-      checkImgLoading($details.querySelector('.slides .slide[is-selected]'))
+      const $firstSlide = $details.querySelector('.slides .slide[is-selected]')
+      checkImgLoading($firstSlide)
+      if ($firstSlide && $firstSlide.nextElementSibling) {
+        preloadImg($firstSlide.nextElementSibling)
+      }
     })
   }
 }
