@@ -4,7 +4,9 @@ name = "プログラミング系"
     name = "traP SysAd班"
     desc = "traPで部内のインフラの制作・管理・運用をしています"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://trap.jp/sysad/\">公式サイトの紹介ページ</a>"
+      ]
       img = []
       slide = [
         "./images/sysad/1[1].png",
@@ -33,35 +35,45 @@ name = "プログラミング系"
     name = "ロ技研 Maquinista"
     desc = "ロボコンチームです"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://maquinista.rogiken.org/\">公式ブログ</a>"
+      ]
       img = []
       slide = []
   [[categories.groups]]
     name = "ロ技研 アクア研"
-    desc = "水中ロボコン"
+    desc = "水中ロボットなど水に関するものつくりをしています"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://twitter.com/rogy_aqua\">Twitter</a>"
+      ]
       img = []
       slide = []
   [[categories.groups]]
     name = "ロ技研 Cheese"
-    desc = "マイクロマウス"
+    desc = "マイクロマウスというロボット競技に取り組んでいます"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://blog.rogiken.org/blog/tag/cheese/\">公式ブログの記事</a>"
+      ]
       img = []
       slide = []
   [[categories.groups]]
     name = "Titech App Project"
     desc = "東工大生向けのアプリやツールの開発をしています"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://titech.app/\">公式サイト</a>"
+      ]
       img = []
       slide = []
   [[categories.groups]]
     name = "iGEM TokyoTech"
     desc = "合成生物学の応用法を探求する国際大会に出場してます"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://igemtitech.wixsite.com/igem-tokyotech\">公式サイト</a>"
+      ]
       img = []
       slide = [
         "./images/igem/1[1].png",
@@ -89,7 +101,9 @@ name = "グラフィック系"
     name = "traP グラフィック班"
     desc = "イラスト・ロゴなどの制作・デザインを行っています"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://trap.jp/graphics/\">公式サイトの紹介ページ</a>"
+      ]
       img = []
       slide = [
         "./images/graphics/1[1].png",
@@ -173,7 +187,9 @@ name = "サウンド系"
     name = "traP サウンド班"
     desc = "主にPCを用いた音楽制作(DTM : Desktop Music)を行っています"
     [categories.groups.details]
-      desc = []
+      desc = [
+        "<a href=\"https://trap.jp/sound/\">公式サイトの紹介ページ</a>"
+      ]
       img = []
       slide = [
         "./images/sound/1[1].png",
