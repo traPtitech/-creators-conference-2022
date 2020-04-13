@@ -16,7 +16,7 @@ mixin group(group)
           each line in group.details.desc
             p !{line}
           each img in group.details.img
-            a.img(href=img.src)
+            a.img-link
               noscript.loading-lazy
                 img(src=img.src alt=img.name loading="lazy")
           button.toggle-details 閉じる
