@@ -110,7 +110,7 @@
       border: solid 1px;
 
       &::after {
-        content: attr(data-now) "/" attr(data-length);
+        content: "スライド: " attr(data-now) "/" attr(data-length);
         text-align: center;
         width: 100%;
         display: block;
