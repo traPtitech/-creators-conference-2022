@@ -113,10 +113,11 @@
       border: solid 1px;
 
       &::after {
-        content: "スライド: " attr(data-now) "/" attr(data-length);
+        content: "<< [スライド: " attr(data-now) "/" attr(data-length) "] >>";
         text-align: center;
         width: 100%;
         display: block;
+        cursor: pointer;
       }
 
       .slide {
