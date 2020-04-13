@@ -85,8 +85,21 @@
   }
 
   .slides {
-    img:not([is-selected]) {
-      display: none;
+    margin: 1em 0;
+
+    &::after {
+      content: attr(data-now) "/" attr(data-length);
+      text-align: center;
+      width: 100%;
+      display: block;
+    }
+
+    img {
+      margin: 0;
+
+      &:not([is-selected]) {
+        display: none;
+      }
     }
   }
 }
