@@ -13,10 +13,10 @@ mixin group(group)
                 .slide(is-selected=(i === 0))
                   noscript.loading-lazy
                     img(src=img loading="lazy")
-          each line in group.details.desc
-            p !{line}
           each img in group.details.img
             a.img-link
               noscript.loading-lazy
                 img(src=img.src alt=img.name loading="lazy")
+          each line in group.details.desc
+            p !{line}
           button.toggle-details 閉じる
