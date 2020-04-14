@@ -185,7 +185,7 @@ exports.optimizeImages = ({ include, exclude } = {}) => ({
             }, */
 
             pngquant: {
-              quality: '65-90',
+              quality: [.7, .9],
               speed: 4
             }
           }

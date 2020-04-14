@@ -1,4 +1,6 @@
 const path = require('path')
+const fs = require('fs')
+const toml = require('toml')
 
 const webpack = require('webpack')
 const merge = require('webpack-merge')
@@ -8,6 +10,7 @@ const StylelintPlugin = require('stylelint-webpack-plugin')
 const ManifestPlugin = require('webpack-manifest-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const { StatsWriterPlugin } = require('webpack-stats-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const parts = require('./webpack.parts')
 
@@ -77,13 +80,17 @@ const commonConfig = merge([
         template: './index.pug'
       }),
       new FriendlyErrorsPlugin(),
-      new StylelintPlugin(lintStylesOptions)
+      new StylelintPlugin(lintStylesOptions),
+      new CopyPlugin([{
+        from: './static',
+        to: './static'
+      }])
     ],
     module: {
       noParse: /\.min\.js/
     }
   },
-  parts.loadPug(),
+  parts.loadPug({ data: toml.parse(fs.readFileSync('./data.toml')) }),
   parts.lintJS({ include: paths.app, options: lintJSOptions }),
   parts.loadFonts({
     include: paths.app,
@@ -176,7 +183,7 @@ const productionConfig = merge([
   parts.loadImages({
     include: paths.app,
     options: {
-      limit: 15000,
+      limit: 1000,
       name: `${paths.images}/[name].[hash:8].[ext]`
     }
   }),

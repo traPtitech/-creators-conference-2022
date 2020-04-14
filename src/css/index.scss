@@ -1,8 +1,26 @@
 @import "./header.scss";
 @import "./footer.scss";
+@import "./group.scss";
 
 * {
   box-sizing: border-box;
+}
+
+button {
+  -webkit-appearance: none;
+  cursor: pointer;
+  border-width: 1px;
+  border-color: #2e5a6d;
+  border-radius: 4px;
+  color: #fefefe;
+  background: #2e5a6d;
+  padding: 0.2em 0.6em;
+  font-weight: bold;
+
+  &:hover {
+    color: #2e5a6d;
+    background: #fefefe;
+  }
 }
 
 html,
@@ -11,28 +29,33 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  width: 80vw;
-
-  @media screen and (max-width: 480px) {
-    width: 90vw;
-  }
-
-  max-width: 1080px;
-  padding: 4rem;
-  margin: 0 auto;
-  color: #100f24;
-  background: linear-gradient(0deg, #feffc4, #fbfbf2);
+  color: #2e5a6d;
+  background: linear-gradient(0deg, #fafc94, #f9f9dc);
 }
 
 main {
+  width: 80vw;
   flex: 1 0;
+  max-width: 1080px;
+  padding: 0 4rem;
+  margin: 0 auto;
+
+  @media screen and (max-width: 480px) {
+    width: 90vw;
+    padding: 0 2rem;
+  }
 }
 
 .release {
   font-weight: bold;
+}
+
+.hidden {
+  display: none;
 }
