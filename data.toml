@@ -42,7 +42,25 @@ key = "program"
         "<a href=\"https://maquinista.rogiken.org/\" target=\"_blank\" rel=\"noopener noreferrer\">公式ブログ</a>"
       ]
       img = []
-      slide = []
+      slide = [
+        "./images/maquinista/1[1].png",
+        "./images/maquinista/2[1].png",
+        "./images/maquinista/3[1].png",
+        "./images/maquinista/4[1].png",
+        "./images/maquinista/5[1].png",
+        "./images/maquinista/6[1].png",
+        "./images/maquinista/7[1].png",
+        "./images/maquinista/8[1].png",
+        "./images/maquinista/9[1].png",
+        "./images/maquinista/10[1].png",
+        "./images/maquinista/11[1].png",
+        "./images/maquinista/12[1].png",
+        "./images/maquinista/13[1].png",
+        "./images/maquinista/14[1].png",
+        "./images/maquinista/15[1].png",
+        "./images/maquinista/16[1].png"
+      ]
+      slide_aspect_ratio_old = true
   [[categories.groups]]
     name = "ロ技研 アクア研"
     key = "aqua"
@@ -59,10 +77,24 @@ key = "program"
     desc = "マイクロマウスというロボット競技に取り組んでいます"
     [categories.groups.details]
       desc = [
+        "<a href=\"https://twitter.com/ssr_cheese\">公式Twitter</a>",
         "<a href=\"https://blog.rogiken.org/blog/tag/cheese/\" target=\"_blank\" rel=\"noopener noreferrer\">公式ブログの記事</a>"
       ]
       img = []
-      slide = []
+      slide = [
+        "./images/cheese/1[1].png",
+        "./images/cheese/2[1].png",
+        "./images/cheese/3[1].png",
+        "./images/cheese/4[1].png",
+        "./images/cheese/5[1].png",
+        "./images/cheese/6[1].png",
+        "./images/cheese/7[1].png",
+        "./images/cheese/8[1].png",
+        "./images/cheese/9[1].png",
+        "./images/cheese/10[1].png",
+        "./images/cheese/11[1].png"
+      ]
+      slide_aspect_ratio_old = true
   [[categories.groups]]
     name = "Titech App Project"
     key = "titechapp"
