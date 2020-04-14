@@ -8,7 +8,7 @@ mixin group(group)
         .inner-wrapper
           h3= group.name
           if group.details.slide.length > 0
-            .slides
+            .slides(data-aspect-radio-old=group.details.slide_aspect_ratio_old)
               each img, i in group.details.slide
                 .slide(is-selected=(i === 0))
                   noscript.loading-lazy

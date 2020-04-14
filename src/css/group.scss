@@ -165,6 +165,10 @@
           display: none;
         }
       }
+
+      &[data-aspect-radio-old] .slide::before {
+        padding-top: 3 / 4 * 100%;
+      }
     }
   }
 }
