@@ -36,10 +36,15 @@ key = "program"
   [[categories.groups]]
     name = "ロ技研 Maquinista"
     key = "maquinista"
-    desc = "ロボコンチームです"
+    desc = "NHK学生ロボコンに向けてロボットを製作しています"
     [categories.groups.details]
       desc = [
-        "<a href=\"https://maquinista.rogiken.org/\" target=\"_blank\" rel=\"noopener noreferrer\">公式ブログ</a>"
+        "Maquinista（マキニスタ）はNHK学生ロボコンというロボットの競技会に向けてロボット製作をしています。ロボットの設計・部品の製作・回路の製作・プログラミングが主な活動内容です。",
+        "現在、チャットツール「Slack」を用いてオンライン体験入会を実施しています。入会はまだ考え中だけど、現役メンバーや新入生と交流してみたい、機械の設計やプログラミングを始めてみたいという方は、ぜひご参加ください。",
+        "質問などはTwitterや質問箱で受け付けています。公式ブログの新歓特設ページにもQ&Aを掲載していますのでこちらもご覧ください。",
+        "<a href=\"https://maquinista.rogiken.org/2020/03/27/shinkan2020/\">公式ブログ 新歓特設ページ</a>",
+        "<a href=\"https://twitter.com/maquinista_rbcn\">公式Twitter</a>",
+        "<a href=\"https://join.slack.com/t/maquinista20fresh/shared_invite/zt-dmun5o3l-FVBf_SRZViWEIor~n7ysNQ\">オンライン体験入会はこちら</a>"
       ]
       img = []
       slide = [
@@ -56,9 +61,7 @@ key = "program"
         "./images/maquinista/11[1].png",
         "./images/maquinista/12[1].png",
         "./images/maquinista/13[1].png",
-        "./images/maquinista/14[1].png",
-        "./images/maquinista/15[1].png",
-        "./images/maquinista/16[1].png"
+        "./images/maquinista/14[1].png"
       ]
       slide_aspect_ratio_old = true
   [[categories.groups]]
