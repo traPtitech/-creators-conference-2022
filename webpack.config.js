@@ -3,11 +3,11 @@ const fs = require('fs')
 const toml = require('toml')
 
 const webpack = require('webpack')
-const merge = require('webpack-merge')
+const { merge } = require('webpack-merge')
 const HtmlPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const StylelintPlugin = require('stylelint-webpack-plugin')
-const ManifestPlugin = require('webpack-manifest-plugin')
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const { StatsWriterPlugin } = require('webpack-stats-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
@@ -81,10 +81,12 @@ const commonConfig = merge([
       }),
       new FriendlyErrorsPlugin(),
       new StylelintPlugin(lintStylesOptions),
-      new CopyPlugin([{
-        from: './static',
-        to: './static'
-      }])
+      new CopyPlugin({
+        patterns: [{
+          from: './static',
+          to: './static'
+        }]
+      })
     ],
     module: {
       noParse: /\.min\.js/
@@ -121,7 +123,7 @@ const productionConfig = merge([
     plugins: [
       new StatsWriterPlugin({ fields: null, filename: '../stats.json' }),
       new webpack.HashedModuleIdsPlugin(),
-      new ManifestPlugin(),
+      new WebpackManifestPlugin(),
       new CleanWebpackPlugin()
     ]
   },
