@@ -89,6 +89,21 @@ key = "graphics"
         "./images/design/13.png",
         "./images/design/14.png"
       ]
+  [[categories.groups]]
+    name = "美術部"
+    key = "art"
+    desc = "絵画やデジタル、彫刻や木工など自由に製作しています"
+    [categories.groups.details]
+      desc = [
+        "東工大美術部です。",
+        "美術に興味がある人、何かを作ってみたい人は大歓迎です。少しでも興味がある人は公式ホームページやtwitterを覗いてみてください。新歓への参加もお待ちしています！",
+        "Twitter：<a href=\"https://twitter.com/titech_artclub/\" target=\"_blank\" rel=\"noopener noreferrer\">@titech_artclub</a>",
+        "<a href=\"https://tokyotechartclub.org/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイト</a>"
+      ]
+      img = [
+        { name = "美術部トップ", src = "./images/art.png" }
+      ]
+      slide = []
     
 
 [[categories]]
