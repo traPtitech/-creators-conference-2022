@@ -31,6 +31,16 @@ key = "program"
         "./images/ja1yad/17.png",
         "./images/ja1yad/18.png",
       ]
+  [[categories.groups]]
+    name = "Titech App Project"
+    key = "titechapp"
+    desc = "東工大生向けのアプリやツールの開発をしています"
+    [categories.groups.details]
+      desc = [
+        "<a href=\"https://titech.app/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイト</a>"
+      ]
+      img = []
+      slide = []
 
 [[categories]]
 name = "グラフィック系"
