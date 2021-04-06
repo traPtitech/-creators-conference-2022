@@ -1,0 +1,34 @@
+[[categories]]
+name = "プログラミング系"
+key = "program"
+  [[categories.groups]]
+    name = "無線研究部"
+    key = "ja1yad"
+    desc = "プログラミングやアマチュア無線に取り組んでいます"
+    [categories.groups.details]
+      desc = [
+        "<a href=\"https://musenken.net\" target=\"_blank\" rel=\"noopener noreferrer\">無線研公式ホームページ</a>",
+        "<a href=\"https://twitter.com/ja1yad\" target=\"_blank\" rel=\"noopener noreferrer\">公式Twitter</a>"
+      ]
+      img = []
+      slide = [
+        "./images/ja1yad/1.png",
+        "./images/ja1yad/2.png",
+        "./images/ja1yad/3.png",
+        "./images/ja1yad/4.png",
+        "./images/ja1yad/5.png",
+        "./images/ja1yad/6.png",
+        "./images/ja1yad/7.png",
+        "./images/ja1yad/8.png",
+        "./images/ja1yad/9.png",
+        "./images/ja1yad/10.png",
+        "./images/ja1yad/11.png",
+        "./images/ja1yad/12.png",
+        "./images/ja1yad/13.png",
+        "./images/ja1yad/14.png",
+        "./images/ja1yad/15.png",
+        "./images/ja1yad/16.png",
+        "./images/ja1yad/17.png",
+        "./images/ja1yad/18.png",
+      ]
+  
