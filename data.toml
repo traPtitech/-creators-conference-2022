@@ -53,6 +53,37 @@ key = "graphics"
       slide = []
 
 [[categories]]
+name = "サウンド系"
+key = "sound"
+  [[categories.groups]]
+    name = "Tech-nation Records"
+    key = "technation"
+    desc = "東工大で唯一の作曲(DTM)サークルです"
+    [categories.groups.details]
+      desc = [
+        "Tech-nation Recordsは東工大で唯一の作曲(DTM)サークルです。メンバーそれぞれがPCで自由に曲を作り、CDを焼いて頒布しています。音楽経験の有無に関わらず新規メンバーを募集しています、興味のある方は是非資料をご覧ください！",
+        "【2021年度新歓コンピ公開中】<br>今年の新入生への歓迎の意を込めて、Tech-nation Recordsから新歓コンピ「TSUBAME2021」をリリースしました！メンバーがどんな曲を作っているのかすぐにわかるコンピです。下記サイトから全曲フリーでダウンロードできます、是非お聞きください！",
+        "<a href=\"https://tsubame-2021.tumblr.com/\" target=\"_blank\" rel=\"noopener noreferrer\">https://tsubame-2021.tumblr.com/</a>"
+      ]
+      img = []
+      slide = [
+        "./images/technation/1.png",
+        "./images/technation/2.png",
+        "./images/technation/3.png",
+        "./images/technation/4.png",
+        "./images/technation/5.png",
+        "./images/technation/6.png",
+        "./images/technation/7.png",
+        "./images/technation/8.png",
+        "./images/technation/9.png",
+        "./images/technation/10.png",
+        "./images/technation/11.png",
+        "./images/technation/12.png",
+        "./images/technation/13.png",
+        "./images/technation/14.png"
+      ]
+
+[[categories]]
 name = "バイオものづくり系"
 key = "bio"
   [[categories.groups]]
