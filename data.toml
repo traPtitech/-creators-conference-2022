@@ -226,5 +226,39 @@ key = "robot"
         "./images/aqua/6.png",
         "./images/aqua/7.png",
         "./images/aqua/8.png"
-      ]  
+      ]
+  [[categories.groups]]
+    name = "ロ技研 Maquinista"
+    key = "maquinista"
+    desc = "NHK学生ロボコンに向けてロボットを製作しています"
+    [categories.groups.details]
+      desc = [
+        "Maquinista（マキニスタ）はNHK学生ロボコンという競技会に向けてロボット製作をしています。ロボットの設計製作・回路の製作・プログラミングが主な活動内容です。",
+        "質問などはTwitterや質問箱で受け付けています。公式ブログの新歓特設ページには今後のイベント情報やQ&Aを掲載していますのでこちらもご覧ください。",
+        "<a href=\"https://maquinista.rogiken.org/2020/03/27/shinkan2020/#2\" target=\"_blank\" rel=\"noopener noreferrer\">公式ブログ新歓特設ページ</a>",
+        "公式Twitter：<a href=\"https://twitter.com/maquinista_rbcn/\" target=\"_blank\" rel=\"noopener noreferrer\">@maquinista_rbcn</a>"
+      ]
+      img = []
+      slide = [
+        "./images/maquinista/1.png",
+        "./images/maquinista/2.png",
+        "./images/maquinista/3.png",
+        "./images/maquinista/4.png",
+        "./images/maquinista/5.png",
+        "./images/maquinista/6.png",
+        "./images/maquinista/7.png",
+        "./images/maquinista/8.png",
+        "./images/maquinista/9.png",
+        "./images/maquinista/10.png",
+        "./images/maquinista/11.png",
+        "./images/maquinista/12.png",
+        "./images/maquinista/13.png",
+        "./images/maquinista/14.png",
+        "./images/maquinista/15.png",
+        "./images/maquinista/16.png",
+        "./images/maquinista/17.png",
+        "./images/maquinista/18.png",
+        "./images/maquinista/19.png",
+        "./images/maquinista/20.png",
+      ]
   
