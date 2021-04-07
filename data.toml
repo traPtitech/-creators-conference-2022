@@ -171,4 +171,20 @@ key = "bio"
         "./images/igem/12.png",
         "./images/igem/13.png"
       ]
+
+[[categories]]
+name = "ロボット系"
+key = "robot"
+  [[categories.groups]]
+    name = "ロ技研 ACT"
+    key = "act"
+    desc = "ヒューマノイドロボットの開発を行うチームです"
+    [categories.groups.details]
+      desc = [
+        "<a href=\"https://www.rogiken.org/shinkan/2021/\" target=\"_blank\" rel=\"noopener noreferrer\">東京工業大学 ロボット技術研究会 2021年度新歓特設ページ</a>"
+      ]
+      img = [
+        { name = "act説明", src = "./images/act.png" }
+      ]
+      slide = []
   
