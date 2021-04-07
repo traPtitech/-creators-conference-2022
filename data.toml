@@ -124,6 +124,53 @@ key = "graphics"
         { name = "美術部トップ", src = "./images/art.png" }
       ]
       slide = []
+  [[categories.groups]]
+    name = "traP グラフィック班"
+    key = "graphics"
+    desc = "イラスト・ロゴ・3Dモデルなどの制作を行っています"
+    [categories.groups.details]
+      desc = [
+        "グラフィック班では、ドット絵、デジタルイラスト、3Dモデル、アナログイラスト、ロゴなど幅広く制作を行っています。",
+        "<a href=\"https://trap.jp/graphics/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
+      ]
+      img = []
+      slide = [
+        "./images/graphics/1.png",
+        "./images/graphics/2.png",
+        "./images/graphics/3.png",
+        "./images/graphics/4.png",
+        "./images/graphics/5.png",
+        "./images/graphics/6.png",
+        "./images/graphics/7.png",
+        "./images/graphics/8.png",
+        "./images/graphics/9.png",
+        "./images/graphics/10.png",
+        "./images/graphics/11.png",
+        "./images/graphics/12.png",
+        "./images/graphics/13.png",
+        "./images/graphics/14.png",
+        "./images/graphics/15.png",
+        "./images/graphics/16.png",
+        "./images/graphics/17.png",
+        "./images/graphics/18.png",
+        "./images/graphics/19.png",
+        "./images/graphics/20.png",
+        "./images/graphics/21.png",
+        "./images/graphics/22.png",
+        "./images/graphics/23.png",
+        "./images/graphics/24.png",
+        "./images/graphics/25.png",
+        "./images/graphics/26.png",
+        "./images/graphics/27.png",
+        "./images/graphics/28.png",
+        "./images/graphics/29.png",
+        "./images/graphics/30.png",
+        "./images/graphics/31.png",
+        "./images/graphics/32.png",
+        "./images/graphics/33.png",
+        "./images/graphics/34.png",
+        "./images/graphics/35.png"
+      ]
     
 
 [[categories]]
