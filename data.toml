@@ -203,6 +203,28 @@ key = "sound"
         "./images/technation/13.png",
         "./images/technation/14.png"
       ]
+  [[categories.groups]]
+    name = "traP サウンド班"
+    key = "sound"
+    desc = "PCを用いた音楽制作(DTM : Desktop Music)を行っています"
+    [categories.groups.details]
+      desc = [
+        "PCを用いた音楽制作(DTM : Desktop Music)を行い、コンピレーションアルバムやゲーム向けBGM・効果音の制作を行っています。",
+        "<a href=\"https://trap.jp/sound/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
+      ]
+      img = []
+      slide = [
+        "./images/sound/1.png",
+        "./images/sound/2.png",
+        "./images/sound/3.png",
+        "./images/sound/4.png",
+        "./images/sound/5.png",
+        "./images/sound/6.png",
+        "./images/sound/7.png",
+        "./images/sound/8.png",
+        "./images/sound/9.png",
+        "./images/sound/10.png",
+      ]
 
 [[categories]]
 name = "バイオものづくり系"
