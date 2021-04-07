@@ -59,3 +59,22 @@ main {
 .hidden {
   display: none;
 }
+
+.youtubeWrap {
+  margin: 0 5%;
+}
+
+.youtube {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0.5rem;
+}
