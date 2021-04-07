@@ -187,4 +187,23 @@ key = "robot"
         { name = "act説明", src = "./images/act.png" }
       ]
       slide = []
+  [[categories.groups]]
+    name = "ロ技研 Assist研"
+    key = "assist"
+    desc = "Assist研の活動のうち，PC用の入力機器を作るHID部門について紹介します"
+    [categories.groups.details]
+      desc = [
+        "Assist研では，各メンバーが欲しいと思ったものを作っています．",
+        "Assist研の活動のうち，PC用の入力機器を作るHID部門について紹介します．",
+        "<a href=\"https://www.rogiken.org/shinkan/2021/\" target=\"_blank\" rel=\"noopener noreferrer\">東京工業大学 ロボット技術研究会 2021年度新歓特設ページ</a>"
+      ]
+      img = []
+      slide = [
+        "./images/assist/1.png",
+        "./images/assist/2.png",
+        "./images/assist/3.png",
+        "./images/assist/4.png",
+        "./images/assist/5.png",
+        "./images/assist/6.png",
+      ]
   
