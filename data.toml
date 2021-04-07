@@ -32,6 +32,26 @@ key = "program"
         "./images/ja1yad/18.png",
       ]
   [[categories.groups]]
+    name = "ロ技研 CG-SQUARE"
+    key = "cgsquare"
+    desc = "ゲーム制作やエンタメにかかわる技術を製作しています"
+    [categories.groups.details]
+      desc = [
+        "ゲーム制作やエンタメにかかわるCG技術、ゲームエンジン、物理エンジン、さらにはXRなどの制作、研究をしています。",
+        "<a href=\"https://www.rogiken.org/shinkan/2021/\" target=\"_blank\" rel=\"noopener noreferrer\">東京工業大学 ロボット技術研究会 2021年度新歓特設ページ</a>"
+      ]
+      img = []
+      slide = [
+        "./images/cgsquare/1.png",
+        "./images/cgsquare/2.png",
+        "./images/cgsquare/3.png",
+        "./images/cgsquare/4.png",
+        "./images/cgsquare/5.png",
+        "./images/cgsquare/6.png",
+        "./images/cgsquare/7.png",
+        "./images/cgsquare/8.png"
+      ]
+  [[categories.groups]]
     name = "Titech App Project"
     key = "titechapp"
     desc = "東工大生向けのアプリやツールの開発をしています"
