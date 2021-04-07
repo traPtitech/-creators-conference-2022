@@ -71,6 +71,50 @@ key = "program"
         "./images/game/6.png",
       ]
   [[categories.groups]]
+    name = "traP SysAd班"
+    key = "sysad"
+    desc = "traPで部内のインフラの開発・管理・運用をしています"
+    [categories.groups.details]
+      desc = [
+        "traPで部内のインフラの開発・管理・運用をしています。",
+        "<a href=\"https://trap.jp/sysad/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
+      ]
+      img = []
+      slide = [
+        "./images/sysad/1.png",
+        "./images/sysad/2.png",
+        "./images/sysad/3.png",
+        "./images/sysad/4.png",
+        "./images/sysad/5.png",
+        "./images/sysad/6.png",
+        "./images/sysad/7.png",
+        "./images/sysad/8.png",
+        "./images/sysad/9.png",
+        "./images/sysad/10.png",
+        "./images/sysad/11.png",
+        "./images/sysad/12.png",
+        "./images/sysad/13.png",
+        "./images/sysad/14.png",
+        "./images/sysad/15.png",
+        "./images/sysad/16.png",
+        "./images/sysad/17.png",
+        "./images/sysad/18.png",
+        "./images/sysad/19.png",
+        "./images/sysad/20.png",
+        "./images/sysad/21.png",
+        "./images/sysad/22.png",
+        "./images/sysad/23.png",
+        "./images/sysad/24.png",
+        "./images/sysad/25.png",
+        "./images/sysad/26.png",
+        "./images/sysad/27.png",
+        "./images/sysad/28.png",
+        "./images/sysad/29.png",
+        "./images/sysad/30.png",
+        "./images/sysad/31.png",
+        "./images/sysad/32.png",
+      ]
+  [[categories.groups]]
     name = "Titech App Project"
     key = "titechapp"
     desc = "東工大生向けのアプリやツールの開発をしています"
