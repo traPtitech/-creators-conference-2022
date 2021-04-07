@@ -52,6 +52,25 @@ key = "program"
         "./images/cgsquare/8.png"
       ]
   [[categories.groups]]
+    name = "traP ゲーム班"
+    key = "game"
+    desc = "ゲームの制作や制作したゲームの試遊, アイデア出しを行っています"
+    [categories.groups.details]
+      desc = [
+        "ゲーム班では, テーマに沿ったゲームの制作や制作したゲームの試遊会, ゲームのアイデア出しなど, ゲームの制作に関連した活動を行っています。",
+        "<a href=\"https://trap.jp/game/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
+
+      ]
+      img = []
+      slide = [
+        "./images/game/1.png",
+        "./images/game/2.png",
+        "./images/game/3.png",
+        "./images/game/4.png",
+        "./images/game/5.png",
+        "./images/game/6.png",
+      ]
+  [[categories.groups]]
     name = "Titech App Project"
     key = "titechapp"
     desc = "東工大生向けのアプリやツールの開発をしています"
