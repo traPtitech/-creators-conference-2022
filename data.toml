@@ -8,7 +8,7 @@ key = "program"
     [categories.groups.details]
       desc = [
         "<a href=\"https://musenken.net\" target=\"_blank\" rel=\"noopener noreferrer\">無線研公式ホームページ</a>",
-        "<a href=\"https://twitter.com/ja1yad\" target=\"_blank\" rel=\"noopener noreferrer\">公式Twitter</a>"
+        "公式Twitter：<a href=\"https://twitter.com/ja1yad\" target=\"_blank\" rel=\"noopener noreferrer\">@JA1YAD</a>"
       ]
       img = []
       slide = [
@@ -29,7 +29,7 @@ key = "program"
         "./images/ja1yad/15.png",
         "./images/ja1yad/16.png",
         "./images/ja1yad/17.png",
-        "./images/ja1yad/18.png",
+        "./images/ja1yad/18.png"
       ]
   [[categories.groups]]
     name = "ロ技研 CG-SQUARE"
@@ -68,7 +68,7 @@ key = "graphics"
   [[categories.groups]]
     name = "アニメーション研究会"
     key = "anime"
-    desc = "唯一の公認アニメーション自主制作サークルです。"
+    desc = "唯一の公認アニメーション自主制作サークルです"
     [categories.groups.details]
       desc = [
         "みなさんこんにちは。私たちはアニメーション研究会、東京工業大学唯一の公認アニメーション自主制作サークルです。",
@@ -210,7 +210,7 @@ key = "robot"
   [[categories.groups]]
     name = "ロ技研 Assist研"
     key = "assist"
-    desc = "Assist研の活動のうち，PC用の入力機器を作るHID部門について紹介します"
+    desc = "PC用の入力機器を作るHID部門について紹介します"
     [categories.groups.details]
       desc = [
         "Assist研では，各メンバーが欲しいと思ったものを作っています．",
