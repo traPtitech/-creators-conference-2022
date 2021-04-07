@@ -19,6 +19,7 @@ html(lang="ja")
         .youtube
           <iframe width="560" height="315" src="https://www.youtube.com/embed/5miE2egC8LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         a(href="https://youtu.be/5miE2egC8LY" target="_blank") https://youtu.be/5miE2egC8LY
+      img.timetable(src="./images/timetable.png")
       #categories(updateAt = updateAt)
         each category in categories
           +category(category)
