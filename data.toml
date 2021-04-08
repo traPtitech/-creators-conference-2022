@@ -61,8 +61,8 @@ key = "program"
     [categories.groups.details]
       desc = [
         "ゲーム班では, テーマに沿ったゲームの制作や制作したゲームの試遊会, ゲームのアイデア出しなど, ゲームの制作に関連した活動を行っています。",
-        "<a href=\"https://trap.jp/game/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
-
+        "<a href=\"https://trap.jp/game/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>",
+        "公式Twitter：<a href=\"https://twitter.com/traPtitech\" target=\"_blank\" rel=\"noopener noreferrer\">@traPtitech</a>"
       ]
       img = []
       slide = [
@@ -80,7 +80,8 @@ key = "program"
     [categories.groups.details]
       desc = [
         "traPで部内のインフラの開発・管理・運用をしています。",
-        "<a href=\"https://trap.jp/sysad/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
+        "<a href=\"https://trap.jp/sysad/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>",
+        "公式Twitter：<a href=\"https://twitter.com/traPtitech\" target=\"_blank\" rel=\"noopener noreferrer\">@traPtitech</a>"
       ]
       img = []
       slide = [
@@ -198,7 +199,8 @@ key = "graphics"
     [categories.groups.details]
       desc = [
         "グラフィック班では、ドット絵、デジタルイラスト、3Dモデル、アナログイラスト、ロゴなど幅広く制作を行っています。",
-        "<a href=\"https://trap.jp/graphics/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
+        "<a href=\"https://trap.jp/graphics/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>",
+        "公式Twitter：<a href=\"https://twitter.com/traPtitech\" target=\"_blank\" rel=\"noopener noreferrer\">@traPtitech</a>"
       ]
       img = []
       slide = [
@@ -277,7 +279,8 @@ key = "sound"
     [categories.groups.details]
       desc = [
         "PCを用いた音楽制作(DTM : Desktop Music)を行い、コンピレーションアルバムやゲーム向けBGM・効果音の制作を行っています。",
-        "<a href=\"https://trap.jp/sound/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>"
+        "<a href=\"https://trap.jp/sound/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイトの紹介ページ</a>",
+        "公式Twitter：<a href=\"https://twitter.com/traPtitech\" target=\"_blank\" rel=\"noopener noreferrer\">@traPtitech</a>"
       ]
       img = []
       slide = [
