@@ -60,27 +60,30 @@ main {
   display: none;
 }
 
-.youtubeWrap {
-  margin: 0 5%;
-}
+.youtube-wrap {
+  .youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
 
-.youtube {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-}
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0.5rem;
+  }
 
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-  border-radius: 0.5rem;
+  button {
+    float: right;
+    margin: 0.5em;
+  }
 }
 
 .timetable {
-  width: 90%;
-  margin: 5%;
+  width: 100%;
+  margin: 2rem 0;
   border-radius: 0.5rem;
 }

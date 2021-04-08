@@ -15,11 +15,13 @@ html(lang="ja")
         | Creators' Conferenceは、複数の創作系サークルが合同で行うサークル説明会です。
         | 4/12(月) 20:00 〜 YouTubeにて開催を予定しています。
         | 本サイトでは、各サークルの活動団体別の発表で使用するスライドなどを掲載します。
-      .youtubeWrap
+      .youtube-wrap
         .youtube
           <iframe width="560" height="315" src="https://www.youtube.com/embed/5miE2egC8LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        a(href="https://youtu.be/5miE2egC8LY" target="_blank") https://youtu.be/5miE2egC8LY
-      img.timetable(src="./images/timetable.png")
+        a(href="https://youtu.be/5miE2egC8LY") 
+          button YouTubeで開く
+      a.img-link
+        img.timetable(src="./images/timetable.png")
       #categories(updateAt = updateAt)
         each category in categories
           +category(category)
