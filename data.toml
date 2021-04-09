@@ -9,7 +9,7 @@ key = "program"
     desc = "プログラミングやアマチュア無線に取り組んでいます"
     [categories.groups.details]
       desc = [
-        "プログラミングやアマチュア無線に取り組んでいます",
+        "プログラミングやアマチュア無線に取り組んでいます。",
         "<a href=\"https://musenken.net\" target=\"_blank\" rel=\"noopener noreferrer\">無線研公式ホームページ</a>",
         "公式Twitter：<a href=\"https://twitter.com/ja1yad\" target=\"_blank\" rel=\"noopener noreferrer\">@JA1YAD</a>"
       ]
@@ -124,7 +124,7 @@ key = "program"
     desc = "東工大生向けのアプリやツールの開発をしています"
     [categories.groups.details]
       desc = [
-        "東工大生向けのアプリやツールの開発をしています",
+        "東工大生向けのアプリやツールの開発をしています。",
         "<a href=\"https://titech.app/\" target=\"_blank\" rel=\"noopener noreferrer\">公式サイト</a>"
       ]
       img = []
