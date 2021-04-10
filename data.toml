@@ -112,11 +112,7 @@ key = "program"
         "./images/sysad/25.png",
         "./images/sysad/26.png",
         "./images/sysad/27.png",
-        "./images/sysad/28.png",
-        "./images/sysad/29.png",
-        "./images/sysad/30.png",
-        "./images/sysad/31.png",
-        "./images/sysad/32.png",
+        "./images/sysad/28.png"
       ]
   [[categories.groups]]
     name = "Titech App Project"
