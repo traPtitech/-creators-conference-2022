@@ -44,15 +44,21 @@ const saveOrder = $categories => {
       ].map($group => $group.dataset.key)
     )
   }
+  const updateAt = document.querySelector('#categories').getAttribute('updateat');
 
-  const data = JSON.stringify({ categories, groups })
+  const data = JSON.stringify({ categories, groups, updateAt })
   localStorage.setItem('order', data)
 }
 
 export const shuffleGroups = () => {
   if (localStorage.getItem('order') !== null) {
-    restoreOrder()
-    return
+    const data = localStorage.getItem('order')
+    const { updateAt } = JSON.parse(data)
+    const date = document.querySelector('#categories').getAttribute('updateat');
+    if (date == updateAt){
+      restoreOrder()
+      return
+    }
   }
 
   const $categories = document.querySelector('#categories')
