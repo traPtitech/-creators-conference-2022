@@ -10,15 +10,15 @@ button {
   -webkit-appearance: none;
   cursor: pointer;
   border-width: 1px;
-  border-color: #2e5a6d;
+  border-color: #25292e;
   border-radius: 4px;
   color: #fefefe;
-  background: #2e5a6d;
+  background: #25292e;
   padding: 0.2em 0.6em;
   font-weight: bold;
 
   &:hover {
-    color: #2e5a6d;
+    color: #25292e;
     background: #fefefe;
   }
 }
@@ -35,8 +35,8 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  color: #2e5a6d;
-  background: linear-gradient(0deg, #fafc94, #f9f9dc);
+  color: #25292e;
+  background: linear-gradient(0deg, #f0f0ff, #fff);
 }
 
 main {

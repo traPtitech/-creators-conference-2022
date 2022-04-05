@@ -38,6 +38,7 @@
     padding: 0.5rem;
     background: #fefefe;
     border-radius: 0.5rem;
+    box-shadow: 0 3px 10px 0 #cad4e2;
 
     h3 {
       margin-top: 0.5em;
@@ -76,11 +77,12 @@
   .inner-wrapper {
     display: flex;
     flex-direction: column;
+    height: 80vmin;
     width: 100%;
     max-width: 1080px;
+    overflow: scroll;
     margin: auto;
     padding: 3rem;
-    justify-content: center;
     align-items: flex-start;
     background: #fefefe;
     border-radius: 0.5rem;
