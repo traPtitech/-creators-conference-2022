@@ -294,7 +294,9 @@ key = "sound"
         "./images/technation/9.png",
         "./images/technation/10.png",
         "./images/technation/11.png",
-        "./images/technation/12.png"
+        "./images/technation/12.png",
+        "./images/technation/13.png",
+        "./images/technation/14.png"
       ]
   [[categories.groups]]
     name = "traP サウンド班"
@@ -319,10 +321,7 @@ key = "sound"
         "./images/sound/9.png",
         "./images/sound/10.png",
         "./images/sound/11.png",
-        "./images/sound/12.png",
-        "./images/sound/13.png",
-        "./images/sound/14.png",
-        "./images/sound/15.png"
+        "./images/sound/12.png"
       ]
 
 [[categories]]
