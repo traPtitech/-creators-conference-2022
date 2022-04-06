@@ -38,6 +38,7 @@
     padding: 0.5rem;
     background: #fefefe;
     border-radius: 0.5rem;
+    box-shadow: 0 1px 6px 0 #cad4e2;
 
     h3 {
       margin-top: 0.5em;
@@ -63,24 +64,26 @@
   height: 100%;
   width: 100%;
   background: rgba(30, 30, 30, 0.3);
-  padding: 5% 15%;
+  padding: 3rem 15%;
   overflow: {
     x: hidden;
     y: auto;
   }
 
   @media screen and (max-width: 480px) {
-    padding: 5%;
+    padding: 4rem 5%;
   }
 
   .inner-wrapper {
     display: flex;
     flex-direction: column;
+    height: 100%;
     width: 100%;
     max-width: 1080px;
+    max-height: 920px;
+    overflow: scroll;
     margin: auto;
-    padding: 3rem;
-    justify-content: center;
+    padding: 1rem 3rem;
     align-items: flex-start;
     background: #fefefe;
     border-radius: 0.5rem;
