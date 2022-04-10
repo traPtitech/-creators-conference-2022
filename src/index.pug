@@ -16,14 +16,17 @@ html(lang="ja")
         | プログラミング系・ロボット系は 4/14(木) 20:00 ～、サウンド系・グラフィック系 4/16(土) 16:00 ～ YouTubeにて開催を予定しています。
         | 本サイトでは、各サークルの活動団体別の発表で使用するスライドなどを掲載します。
       .youtube-wrap
-        //.youtube
-        //  <iframe width="560" height="315" src="https://www.youtube.com/embed/5miE2egC8LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        //a(href="https://youtu.be/5miE2egC8LY" target="_blank")
-        //  button YouTubeで開く
-        a.img-link
-          img.timetable(src="./images/thumbnail.jpg")
-        a(href="#")
-          button YouTubeで開く (準備中)
+        .youtube
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/j2ge9S8xKxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        .youtube-link
+          a(href="https://youtu.be/j2ge9S8xKxY" target="_blank")
+            button YouTubeで開く 1日目
+      .youtube-wrap
+        .youtube
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/8tbIlqDrPKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        .youtube-link
+          a(href="https://youtu.be/8tbIlqDrPKc" target="_blank")
+            button YouTubeで開く 2日目
       a.img-link
         img.timetable(src="./images/timetable.jpg")
       #categories(updateAt = updateAt)
