@@ -308,7 +308,9 @@ key = "sound"
         "./images/technation/17.png",
         "./images/technation/18.png",
         "./images/technation/19.png",
-        "./images/technation/20.png"
+        "./images/technation/20.png",
+        "./images/technation/21.png",
+        "./images/technation/22.png"
       ]
   [[categories.groups]]
     name = "traP サウンド班"
